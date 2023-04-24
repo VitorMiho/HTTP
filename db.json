@@ -1,0 +1,21 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Maria",
+      "idade": 20
+    },
+    {
+      "nome": "Beckham",
+      "idade": "78",
+      "cpf": "888",
+      "id": 2
+    },
+    {
+      "nome": "Neymar",
+      "idade": "30",
+      "cpf": "555",
+      "id": 4
+    }
+  ]
+}
