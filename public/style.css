@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: #e8e4d6;
+}
+#h2{
+    text-align: center;
+}
+#h1{
+    text-align: center;
+    width: 350px;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+#formulario{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+    gap: 15px;    
+    margin-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+}
+.caixa{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: auto;
+}
+.botoes{
+    width: 80px;   
+    height: 28px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#inform{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#login1{
+    display: flex;
+    flex-direction: column;   
+    background-color: #f8f8f2;
+    width: 480px;
+    height: 360px;
+    align-items: center;
+    margin: auto;   
+    margin-top: 10%;
+    gap: 15px; 
+    align-items: center;
+    border: 1px solid rgba(125, 229, 243, 0.733);
+    border-radius: 5px;
+}
+#formu{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin-top: 30px;
+}
+.caixa1{
+    width: 450px;
+    height: 28px;
+    border: 1px solid #e4d6a5a8;
+    border-radius: 3px;
+    margin: auto;
+}
+#labelSenha{
+    margin-top: 16px;
+}
+.botao{
+    width: 200px;   
+    height: 35px;
+    background-color: rgba(130, 204, 233, 0.774);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    border: 2px solid black;
+    border-radius: 5px; 
+    margin-top: 35px;
+    cursor: pointer;
+}
+#input{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
